@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kedai Rasa Nusantara</title>
+  <style>
+    body { font-family: sans-serif; margin: 0; background: #faf6f1; color: #3b2a20; }
+    header { background: #1b7f3b; color: white; text-align: center; padding: 40px 16px; }
+    main { max-width: 700px; margin: 0 auto; padding: 24px 16px; }
+    .menu { display: flex; flex-wrap: wrap; gap: 12px; }
+    .kartu { flex: 1 1 200px; background: white; border-radius: 8px; padding: 16px; box-shadow: 0 1px 4px rgba(0,0,0,.1); }
+    .harga { color: #6f4e37; font-weight: bold; }
+    a.tombol { display: inline-block; margin-top: 24px; padding: 12px 24px; background: #25d366; color: white; text-decoration: none; border-radius: 6px; }
+
+    @media (max-width: 600px) {
+      header h1 { font-size: 1.4rem; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Kedai Rasa Nusantara</h1>
+    <p>Lezat, nikmat, dan harga bersahabat</p>
+  </header>
+  <main>
+    <p><a href="index.html">Kembali ke portofolio</a></p>
+    <h2>Menu</h2>
+    <div class="menu">
+      <div class="kartu"><h3>Nasi Goreng Spesial</h3><p class="harga">Rp 18.000</p></div>
+      <div class="kartu"><h3>Mie Goreng Jawa</h3><p class="harga">Rp 15.000</p></div>
+      <div class="kartu"><h3>Ayam Geprek</h3><p class="harga">Rp 20.000</p></div>
+      <div class="kartu"><h3>Es Teh Manis</h3><p class="harga">Rp 5.000</p></div>
+      <div class="kartu"><h3>Es Jeruk</h3><p class="harga">Rp 8.000</p></div>
+      <div class="kartu"><h3>Bakso Urat</h3><p class="harga">Rp 17.000</p></div>
+    </div>
+    <a class="tombol" href="https://wa.me/6281234567890">Pesan via WhatsApp</a>
+  </main>
+</body>
+</html>
