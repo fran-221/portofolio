@@ -10,7 +10,7 @@
     const teks = kartu.querySelector('.harga').textContent;
     const angka = parseInt(teks.replace(/[^0-9]/g, ''), 10);
     if (angka < 16000) {
-      kartu.style.border = '2px solid red';
+      kartu.style.outline = '2px solid red';
     }
   });
 })();
